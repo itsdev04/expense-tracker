@@ -1,0 +1,14 @@
+spring:
+  main:
+    web-application-type: none
+  application:
+    name: auth-service
+  cloud:
+    config:
+      uri: http://localhost:8888
+jwt:
+  secret: WxUtP2ROqq2dT9KHNefj9aYvNl6+lIVhQyIs6y2OyNo=
+
+logging:
+  level:
+    root: INFO
